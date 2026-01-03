@@ -61,7 +61,7 @@ export default function PersonaDirectory() {
     URL.revokeObjectURL(url);
   }
 
-  const OPEN_LINK = "https://sonu-frontend.onrender.com/"; // kept hidden from UI, used only in button
+  const OPEN_LINK = "https://multi-persona-ai.vercel.app"; // kept hidden from UI, used only in button
 
   return (
     <div className={`min-h-screen p-6 transition-colors duration-300 ${dark ? 'bg-gray-900 text-gray-100' : 'bg-gradient-to-br from-gray-50 to-white text-gray-800'}`}>
@@ -161,7 +161,7 @@ export default function PersonaDirectory() {
               <div className="text-xs text-gray-500 dark:text-gray-400">Access the AI by clicking the button</div>
             </div>
 
-            <a href={OPEN_LINK} target="_blank" rel="noopener noreferrer" className="px-5 py-2 bg-emerald-500 text-white rounded-md shadow hover:bg-emerald-600 transform hover:-translate-y-0.5 transition">Open AI</a>
+            <a href={OPEN_LINK} target="_blank" rel="noopener noreferrer" className="px-5 py-2 bg-emerald-500 text-white rounded-md shadow hover:bg-emerald-600 transform hover:-translate-y-0.5 transition">Open Multi-persona AI</a>
           </div>
 
           <div className="text-sm text-gray-600 dark:text-gray-300">Made By Sanu Sharma</div>
